@@ -1,0 +1,22 @@
+# Requirements for Perch-based European Bee-eater Detection
+# Install with: pip install -r requirements.txt
+
+# Core Perch dependencies
+git+https://github.com/google-research/perch-hoplite.git
+
+# TensorFlow (with CUDA support for GPU acceleration)
+"tensorflow[and-cuda]~=2.20.0"
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# Utilities
+tqdm>=4.65.0
